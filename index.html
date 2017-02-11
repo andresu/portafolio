@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portafolio Diego Andres Urrea Ortega</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/estilos.css" type="text/css">
+  <link rel="stylesheet" href="font/fontello.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300i,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="mobile mobile-menu">
+      <a id="mobile-menu" href="#">
+        <span id="open" class="icon-signs unfolding"></span>
+        <!-- <img id="open" class="unfolding" src="assets/mobile-menu-icon.png" alt="mobile-menu"> -->
+        <span id="close" class="icon-close folding"></span>
+      </a>
+    </div>
+    <nav id="menu" class="folding">
+      <ul>
+        <a href="#home"><li>Inicio</li></a>
+        <a href="#servicios"><li>Servicios</li></a>
+        <a href="#perfil"><li>Perfil</li></a>
+        <a href="#proyectos"><li>Proyectos</li></a>
+        <a href="#contacto"><li>Contacto</li></a>
+      </ul>
+    </nav>
+  </header>
+  <div class="wrapper">
+
+  <section id="home" class="home">
+    <h1>Andres Urrea <br><span>desarrollador frontend - diseñador ui / ux</span></h1>
+    <!--<p></p>-->
+  </section>
+
+  <section id="servicios" class="servicios">
+
+    <article>
+      <span class="icon-computer"></span>
+      <h3>UI / UX Design</h3>
+      <p>Diseño de productos digitales, desde su fase de wireframe
+      hasta el producto terminado.</p>
+    </article>
+
+    <article>
+      <span class="icon-programming"></span>
+      <h3>Web development</h3>
+      <p>Manejo de las más recientes tecnologías para el desarrollo  de productos web, < como HTML5, CSS4, JS, jQuery, SASS, Git  entre otros.</p>
+    </article>
+
+    <article>
+      <span class="icon-vector"></span>
+      <h3>Visual design</h3>
+      <p>Cuento con una amplia destreza en la creación y diseño de soluciones visuales innovadoras y funcionales.</p>
+    </article>
+
+  </section>
+
+  <section id="perfil" class="perfil">
+    <img src="assets/perfil.jpg" alt="perfil">
+    <p>Soy un apasionado por el diseño y la tecnología. Y hago que estas se entrelacen en mi trabajo a diario, con el fin de crear productos impactantes. Me gustan los retos y aprender constantemente.</p>
+  </section>
+  
+  <section id="proyectos" class="proyectos">
+    <p>Deseo llenar cada uno de los espacios con proyectos increíbles. Muy pronto le mostraré en lo que estoy trabajando.</p>
+    
+    <div class="proyectos-wrapper">
+      <article class="item">
+        <div class="circulo resaltado">
+          <span class="icon-plus"></span>
+        </div>
+      </article>
+
+      <article class="item">
+        <div class="circulo">
+          <span class="icon-plus"></span>
+        </div>
+      </article>
+
+      <article class="item">
+        <div class="circulo">
+          <span class="icon-plus"></span>
+        </div>
+      </article>
+
+      <article class="item">
+        <div class="circulo">
+          <span class="icon-plus"></span>
+        </div>
+      </article>
+
+      <article class="item">
+        <div class="circulo">
+          <span class="icon-plus"></span>
+        </div>
+      </article>
+
+      <article class="item">
+        <div class="circulo">
+          <span class="icon-plus"></span>
+        </div>
+      </article>
+    </div>
+    
+  </section>
+
+  <section id="contacto" class="contacto">
+    <p>Llene este formulario y me contactaré con usted.</p>
+    <form action=""> 
+      <!--<label for="">Nombre</label>-->
+      <input type="text" class="text" placeholder="Escriba su nombre">
+      <!--<label for="">Teléfono</label>-->
+      <input type="text" class="text" placeholder="Escriba su apellido">
+      <!--<label for="">Comentarios</label>-->
+      <textarea name="comentarios" id="comentarios" cols="30" rows="10" placeholder="Escriba su comentario"></textarea>
+      <input type="submit">
+    </form>
+  </section>
+
+  </div>
+  <script src="js/menu.js" type="text/javascript"></script>
+
+
+</body>
+</html>
